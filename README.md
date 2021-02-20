@@ -45,11 +45,29 @@ Untuk mencari command di histori, execute command ```grep "$search" ~/.bash_hist
 [Video link](/videos/05.mp4)
 
 # 6
+
+Check bila remote ada :
+
 ```
-cd path/to/repo                                                   # change directory ke git repo lokal
-git remote                                                        # check bila sudah ada remote atau tidak
-git remote add origin https://github.com/lemniskett/Dumbways.git  # Bila tidak, tambahkan remote dengan nama origin
-git commit -m "Commit message"                                    # Commit perubahan
-git push origin master                                            # Upload perubahan ke remote origin branch master
+git remote
 ```
+
+Add remote origin : 
+
+```
+git remote add origin https://github.com/lemniskett/Dumbways.git
+```
+
+Add changes dan commit : 
+```
+git add .
+git commit -m "Commit message"
+```
+
+Push ke remote origin branch master :
+
+```
+git push origin master
+```
+
 [Video link](/videos/06.mp4)
