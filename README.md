@@ -62,6 +62,10 @@ Dengan CD, *changes* dapat sampai ke *production* dengan lebih cepat dan aman de
 
 [Video link](/videos/06.mp4)
 
+# 7
+
+![07](/images/07.png)
+
 # 8
 
 Untuk database, saya akan menggunakan layanan remotemysql.com karena saya tidak punya credit card untuk menggunakan ClearDB
