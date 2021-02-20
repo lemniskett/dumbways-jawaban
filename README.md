@@ -47,6 +47,13 @@ Untuk mencari command di histori, execute command ```grep "$search" ~/.bash_hist
 
 ![03-step-6](/images/03-step-6.png)
 
+# 4
+
+Dengan CI (*Continuous Integration*), setiap ada *changes*, akan ada *automated* build. bila ada kesalahan, dapat terdeteksi dengan mudah dimana dan apa yang salah.
+Dengan CD, *changes* dapat sampai ke *production* dengan lebih cepat dan aman dengan mengecek apakah itu deployable atau tidak.
+
+![04](/images/04.png)
+
 # 5
 
 [Video link](/videos/05.mp4)
