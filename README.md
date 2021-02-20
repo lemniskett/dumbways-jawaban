@@ -28,7 +28,7 @@ Kita juga bisa melihat histori command yang pernah dijalankan, umumnya file hist
 
 ![03-step-5](/images/03-step-5.png)
 
-Untuk mencari command di histori, execute command ```grep "$search" ~/.bash_history``` (dimana $search merupakan apa yang kita ingin cari) :
+Untuk mencari command di histori, execute command ```grep "$search" ~/.bash_history``` (dimana ```$search``` merupakan apa yang kita ingin cari) :
 
 ![03-step-6](/images/03-step-6.png)
 
@@ -39,6 +39,7 @@ useradd -m lemniskett                 # flag -m untuk membuat home directory (op
 sudo apt update && sudo apt upgrade   # menggunakan && agar sudo apt upgrade tidak berjalan bila sudo apt update gagal
 EOF
 chmod +x file.sh                      # buat file.sh bisa diexecute.
+./file.sh                             # execute file.sh
 ```
 # 6
 ```
