@@ -130,3 +130,18 @@ Username : lemniskett
 Password : dumbways
 
 ![08-step-15](/images/08-step-15.png)
+
+# Informasi OS
+
+Nix OS (Laptop), Manjaro (Raspberry Pi)
+
+# Sumber
+
+https://www.lucidchart.com/blog/devops-process-flow
+
+https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html
+
+https://logz.io/blog/docker-vs-kubernetes/
+
+https://callistaenterprise.se/blogg/teknik/2015/03/25/an-operations-model-for-microservices/
+
