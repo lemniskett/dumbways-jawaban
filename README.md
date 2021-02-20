@@ -100,12 +100,26 @@ Buat sebuah directory bernama lemniskett-wp, cd ke dir tersebut, buat repo git, 
 
 ## Extract dan hapus tarball-nya
 
-![08-step-8](/images/08-step-9.png)
+![08-step-9](/images/08-step-9.png)
 
 ## Push ke remote heroku
 
-![08-step-8](/images/08-step-10.png)
+![08-step-10](/images/08-step-10.png)
 
-![08-step-8](/images/08-step-11.png)
+![08-step-11](/images/08-step-11.png)
 
-## Missing procfile dan composer.json, git add . di root repo, dan 
+## Missing procfile dan composer.json, git add . di root repo, git commit, dan push ke remote heroku
+
+![08-step-12](/images/08-step-12.png)
+
+## Wordpress initial setup
+
+![08-step-13](/images/08-step-13.png)
+
+## Wordpress initial setup
+
+![08-step-14](/images/08-step-14.png)
+
+## Done
+
+![08-step-15](/images/08-step-15.png)
