@@ -46,28 +46,4 @@ Untuk mencari command di histori, execute command ```grep "$search" ~/.bash_hist
 
 # 6
 
-Check bila remote ada :
-
-```
-git remote
-```
-
-Add remote origin : 
-
-```
-git remote add origin https://github.com/lemniskett/Dumbways.git
-```
-
-Add changes dan commit : 
-```
-git add .
-git commit -m "Commit message"
-```
-
-Push ke remote origin branch master :
-
-```
-git push origin master
-```
-
 [Video link](/videos/06.mp4)
