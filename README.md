@@ -61,3 +61,51 @@ Dengan CD, *changes* dapat sampai ke *production* dengan lebih cepat dan aman de
 # 6
 
 [Video link](/videos/06.mp4)
+
+# 8
+
+Untuk database, saya akan menggunakan layanan remotemysql.com karena saya tidak punya credit card untuk menggunakan ClearDB
+
+## Create project di Heroku
+
+![08-step-1](/images/08-step-1.png)
+
+## Set environment variables untuk MySQL
+
+![08-step-2](/images/08-step-2.png)
+
+## Initialize Git repository
+
+Buat sebuah directory bernama lemniskett-wp, cd ke dir tersebut, buat repo git, dan tambahkan remote heroku
+
+![08-step-3](/images/08-step-3.png)
+
+## Set up webserver
+
+![08-step-4](/images/08-step-4.png)
+
+## Buat composer.json untuk installasi dependensi
+
+![08-step-5](/images/08-step-5.png)
+
+## Tambahkan /vendor ke dalam gitignore, dan lakukan composer update
+
+![08-step-6](/images/08-step-6.png)
+
+![08-step-7](/images/08-step-7.png)
+
+## Download latest wordpress release tarball
+
+![08-step-8](/images/08-step-8.png)
+
+## Extract dan hapus tarball-nya
+
+![08-step-8](/images/08-step-9.png)
+
+## Push ke remote heroku
+
+![08-step-8](/images/08-step-10.png)
+
+![08-step-8](/images/08-step-11.png)
+
+## Missing procfile dan composer.json, git add . di root repo, dan 
