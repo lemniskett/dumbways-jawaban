@@ -35,7 +35,7 @@ Untuk mencari command di histori, execute command ```grep "$search" ~/.bash_hist
 # 5
 ```
 cat << EOF > file.sh
-useradd -m lemniskett                 # flag -m untuk membuat home directory (opsional tapi dianjurkan)
+sudo useradd -m lemniskett                 # flag -m untuk membuat home directory (opsional tapi dianjurkan)
 sudo apt update && sudo apt upgrade   # menggunakan && agar sudo apt upgrade tidak berjalan bila sudo apt update gagal
 EOF
 chmod +x file.sh                      # buat file.sh bisa diexecute.
