@@ -4,6 +4,8 @@ Dev Ops adalah sebuah set praktik dan para pengembang yang bekerja sama untuk me
 
 Tanpa Dev Ops, akan lebih banyak tekanan yang akan di-*handle* para programmer, dan *potentially* staff lain.
 
+![01](/images/01.pmg)
+
 # 2
 
 Docker adalah sebuah container yang fungsi utamanya untuk menge-*ship* sebuah software tanpa perlu memikirkan dependensi, semua dependensi software di-*bundle* menjadi sebuah *image* dan *image* ini bisa di-transfer ke host apapun tanpa menginstall dependensi di host tersebut, mirip seperti virtual machine namun host dan guest docker menggunakan kernel yang sama (dan *optionally* resource lain yang sama), jauh lebih sedikit *overhead*-nya dibandingkan virtual machine. Sedangkan Kubernetes adalah container manager, Kubernetes seperti layaknya orkestra yang memandu container-container yang di-*manage*, Kubernetes dapat mengatur *scale*, *deploy* otomatis, dan mengatur container-container.
