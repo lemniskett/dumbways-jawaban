@@ -4,7 +4,7 @@ Dev Ops adalah sebuah set praktik dan para pengembang yang bekerja sama untuk me
 
 Tanpa Dev Ops, akan lebih banyak tekanan yang akan di-*handle* para programmer, dan *potentially* staff lain.
 
-![01](/images/01.pmg)
+![01](/images/01.png)
 
 # 2
 
