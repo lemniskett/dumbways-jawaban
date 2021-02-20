@@ -33,14 +33,31 @@ Untuk mencari command di histori, execute command ```grep "$search" ~/.bash_hist
 ![03-step-6](/images/03-step-6.png)
 
 # 5
+
+Buat file-nya :
+
 ```
 cat << EOF > file.sh
 sudo useradd -m lemniskett                 # flag -m untuk membuat home directory (opsional tapi dianjurkan)
 sudo apt update && sudo apt upgrade   # menggunakan && agar sudo apt upgrade tidak berjalan bila sudo apt update gagal
 EOF
+```
+
+![05-step-1](/images/05-step-1.png)
+
+lalu buat file ```file.sh``` menjadi bisa di-*execute*, dan execute file.sh : 
+
+```
 chmod +x file.sh                      # buat file.sh bisa diexecute.
 ./file.sh                             # execute file.sh
 ```
+
+![05-step-2](/images/05-step-2.png)
+
+![05-step-3](/images/05-step-3.png)
+
+![05-step-4](/images/05-step-4.png)
+
 # 6
 ```
 cd path/to/repo                                                   # change directory ke git repo lokal
