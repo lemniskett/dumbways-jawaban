@@ -122,4 +122,7 @@ Buat sebuah directory bernama lemniskett-wp, cd ke dir tersebut, buat repo git, 
 
 ## Done
 
+Username : lemniskett
+Password : dumbways
+
 ![08-step-15](/images/08-step-15.png)
