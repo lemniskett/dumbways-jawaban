@@ -2,7 +2,7 @@
 
 Dev Ops adalah sebuah set praktik dan para pengembang yang bekerja sama untuk men-*support* sebuah layanan, dimulai dari selama pengembangan sampai ke bagian *production*.
 
-Tanpa Dev Ops, 
+Tanpa Dev Ops, akan lebih banyak tekanan yang akan di-*handle* para programmer, dan *potentially* staff lain.
 
 # 2
 
@@ -15,6 +15,9 @@ Berikut adalah struktur docker :
 Berikut adalah struktur kubernetes, simplified :
 
 ![02-step-2](/images/02-step-2.png)
+
+perbedaannya adalah docker adalah *container*, sedangkan Kubernetes adalah manajer dari kumpulan-kumpulan *container*,
+sedangkan persamaannya adalah keduanya merupakan solusi untuk memudahkan deployment.
 
 # 3
 
